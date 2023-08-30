@@ -5,6 +5,7 @@ Authorization and Authentication musings
 # Tree based
 - nodes can choose what control tags propagate to child nodes.
 - parent nodes are groups
+- nodes closer to root have less data access but, more identity management control
 
 ```mermaid
 flowchart TD;
@@ -22,6 +23,7 @@ flowchart TD;
 <tr><th>User             <th>Groups
 <tr><td>brainwart        <td>brainwart, user, person, everyone
 <tr><td>zadmin-brainwart <td>zadmin-brainwart, admin, person, everyone
+<tr><td>person           <td>person, everyone
 <tr><td>svc-postgres     <td>svc-postgres, service, everyone
 </table>
 
