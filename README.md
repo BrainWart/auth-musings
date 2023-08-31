@@ -47,7 +47,6 @@ flowchart TD;
 <tr><td>NodeID     <td>Guid
 <tr><td>TagTypeID  <td>Guid
 <tr><td>Value      <td>String
-<tr><td>Lock       <td>Boolean
 </table>
 
 ## Potential Tag Types
@@ -60,6 +59,8 @@ flowchart TD;
 <tr><td>-- <td>FullName          <td>String
 <tr><td>-- <td>MachineName       <td>String
 <tr><td>-- <td>UnixID            <td>int?
+<tr><td>-- <td>Lock              <td>Boolean
+<tr><td>-- <td>Hide              <td>Boolean
 </table>
 
 ## Potential Module Areas
